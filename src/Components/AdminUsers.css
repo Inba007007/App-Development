@@ -1,0 +1,41 @@
+.admin-users {
+    padding: 20px;
+  }
+  
+  .admin-users h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-users form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-users input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .admin-users button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .admin-users ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-users li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .admin-users li button {
+    margin-left: 10px;
+  }
+  

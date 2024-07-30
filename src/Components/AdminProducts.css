@@ -1,0 +1,41 @@
+.admin-products {
+    padding: 20px;
+  }
+  
+  .admin-products h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-products form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-products input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .admin-products button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .admin-products ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-products li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .admin-products li button {
+    margin-left: 10px;
+  }
+  
