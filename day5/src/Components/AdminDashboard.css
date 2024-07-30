@@ -1,0 +1,36 @@
+.admin-dashboard {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.admin-dashboard h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-dashboard p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.admin-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.admin-link {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.admin-link:hover {
+  background-color: #0056b3;
+}

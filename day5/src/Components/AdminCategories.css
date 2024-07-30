@@ -1,0 +1,76 @@
+.admin-categories {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .add-category {
+    margin-bottom: 20px;
+  }
+  
+  .add-category input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-category button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-category button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li span {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  li input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  li button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  
+  li button:hover {
+    background-color: #007bb5;
+  }
+  
+  li button:last-child {
+    background-color: #f44336;
+  }
+  
+  li button:last-child:hover {
+    background-color: #da190b;
+  }
+  

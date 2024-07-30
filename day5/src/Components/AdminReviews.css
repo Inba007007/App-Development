@@ -1,0 +1,82 @@
+.admin-reviews {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-reviews h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .reviews-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .reviews-table th, .reviews-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .reviews-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .reviews-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .reviews-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .reviews-table td {
+    color: #333;
+  }
+  
+  .reviews-table button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+  }
+  
+  .view-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .view-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-btn {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #007bb5;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #da190b;
+  }
+  
